@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Detector - Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='resultstyle.css') }}">
+</head>
+<body>
+    <h1>Phishing Detector - Result</h1>
+    <p>URL: {{ url }}</p>
+    <p>Result: {{ result }}</p>
+    <button>
+    <a href="/">Go Back</a>
+</button>
+</body>
+</html>
